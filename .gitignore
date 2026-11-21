@@ -1,0 +1,4 @@
+.verity/verity.db
+.venv/
+node_modules/
+

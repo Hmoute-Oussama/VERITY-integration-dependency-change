@@ -1,0 +1,10 @@
+version: 1
+task: dependency_change
+contracts:
+  - id: pyjwt_dependency
+    claim: The dependency manifest declares PyJWT.
+    verifier: json_path
+    args:
+      path: package.json
+      json_path: dependencies.pyjwt
+    required: true

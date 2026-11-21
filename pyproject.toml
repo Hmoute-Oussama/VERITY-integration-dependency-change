@@ -1,0 +1,4 @@
+[project]
+name = "dependency-change"
+version = "1.0.0"
+dependencies = ["pyjwt>=2.8"]
